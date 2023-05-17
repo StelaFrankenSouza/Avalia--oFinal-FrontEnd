@@ -1,170 +1,139 @@
-*{
-    margin: 0;
-    padding: 0;}
-
-
-
-body{
-    
-    width:100vw;
-    height:100vh;
-    position: relative;
-    overflow: hidden;
-
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    font-size: 62.5%;
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 .main {
-
-    background-color: gray;
-    position:absolute;
-    left: 25%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    width: 80%;
-    height: 100%;
-    margin:0;
+  background-color: gray;
+  position: absolute;
+  left: 25%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 80%;
+  height: 100%;
+  margin: 0;
 }
 
-
-
-.pagina1, .pagina2, .pagina3 {
-    background-color: black;
-    width: 25%;
-    height: 100%;
-    font-size: 20px;
-    list-style-type: none;
-    font-family: 'Courier New', Courier, monospace;  
-    position: absolute;
-    text-align: center;
-    
-    
-
+.pagina1,
+.pagina2,
+.pagina3 {
+  background-color: black;
+  width: 25%;
+  height: 100%;
+  font-size: 20px;
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  text-align: center;
 }
 
-.foto{
-    border-color: gray;
-    border-width: 3px;
-    border-style:solid;
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: calc(50% - 100px);
-    left: calc(40vh - 150px);
-    
-    
-}
-    
-
-h1{
-    
-    margin: 200px 100px 200px 0;
-    color: black;
-    position:absolute;
-    font-size: 40px;
-    left: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    
-    
-
-
+.foto {
+  border-color: gray;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(40vh - 150px);
 }
 
-h2{
-    margin: 250px 100px 250px 0;
-    left: 20px;
-    color: black;
-    position: absolute;
-    font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    
-    
-    
-    }
-
- 
- 
- .logos{
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    border: none;
-    margin: 10px;
-    bottom: 170px;
-    position: relative;
-    left: 0px;
-    
-    
-}
- .li{
-    list-style-type: none;
-    position: relative;
-    
- }
- a{
-    text-decoration: none;
-    color: grey;
-    font-size: 20x;
-}
-    
-    
-a:hover{
-    text-decoration: underline;
-    font-size: 25px;
+h1 {
+  margin: 200px 100px 200px 0;
+  color: black;
+  position: absolute;
+  font-size: 40px;
+  left: 20px;
+  font-family: "Courier New", Courier, monospace;
 }
 
- p{
-    margin: 300px 100px 350px 20px;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+h2 {
+  margin: 250px 100px 250px 0;
+  left: 20px;
+  color: black;
+  position: absolute;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
 }
 
-span{
-    color: rgb(70, 4, 70);
+.logos {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border: none;
+  margin: 10px;
+  bottom: 170px;
+  position: relative;
+  left: 0px;
+}
+.li {
+  list-style-type: none;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: grey;
+  font-size: 20x;
 }
 
+a:hover {
+  text-decoration: underline;
+  font-size: 25px;
+}
 
- .texto{
-    margin: 250px 100px 500px 40px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style: none;
+p {
+  margin: 300px 100px 350px 20px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    
-    
- }
+span {
+  color: rgb(70, 4, 70);
+}
 
- .email{
-    color: rgb(70, 4, 70);
- }
+.texto {
+  margin: 250px 100px 500px 40px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
 
- .conhecimento{ 
-    list-style-type: none;
-    position: relative;
-    top: 350px;
-    text-align: center;
-    
- }
+.email {
+  color: rgb(70, 4, 70);
+}
 
- ul{
-    list-style: disc;
-    position: relative;
- }
+.conhecimento {
+  list-style-type: none;
+  position: relative;
+  top: 350px;
+  text-align: center;
+}
 
- .lista{
-    list-style: upper-alpha;
- }
+ul {
+  list-style: disc;
+  position: relative;
+}
 
- h3{
-    color: rgb(70, 4, 70);
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 50px;
-    margin: 30px;
- }
+.lista {
+  list-style: upper-alpha;
+}
+
+h3 {
+  color: rgb(70, 4, 70);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  margin: 30px;
+}
