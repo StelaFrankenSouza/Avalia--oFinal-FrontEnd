@@ -44,11 +44,12 @@ html {
   border-width: 3px;
   border-style: solid;
   border-radius: 100%;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   position: absolute;
-  top: calc(50% - 100px);
-  left: calc(40vh - 150px);
+  top: 100px;
+  left: 170px;
+  
 }
 
 h1 {
